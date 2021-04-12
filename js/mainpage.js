@@ -19,12 +19,12 @@ function requestUserRepos()
             if(data.message === "Not Found")
             {
                 $('#userRepos').empty();
-                li.innerHTML = (`<p><strong><font color="red"><center>No User available in this Name, Please Try with different User Name !!!</center></font></strong></p>`);
+                li.innerHTML = (`<p><strong><font color="red"><center>No User Repositories available in this Name, Please Try with different User Name !!!</center></font></strong></p>`);
             }
             else
             {
                 li.innerHTML = (`
-                    <p><strong>Repo:</strong> ${data[i].name}</p>
+                    <p><strong>Repo Name:</strong> ${data[i].name}</p>
                     <p><strong>Description:</strong> ${data[i].description}</p>
                     <p><strong>Major Language:</strong> ${data[i].language}</p>
                     <p><strong>URL:</strong> <a href="${data[i].html_url}">${data[i].html_url}</a></p>
@@ -68,7 +68,7 @@ function requestUserInfo()
         $('#userRepos').empty();
         li.innerHTML = (`
             <p><a href="${data.html_url}"><img class="img-thumbnail" width="200" height="200" src="${data.avatar_url}"/></a></p>
-            <p><strong>Name:</strong> ${data.name}</p>
+            <p><strong>User Name:</strong> ${data.name}</p>
             <p><strong>About:</strong> ${data.bio}</p>
             <p><strong>Location:</strong> ${data.location}</p>
             <p><strong>Email:</strong> ${data.email}</p>
