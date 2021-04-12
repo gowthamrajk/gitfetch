@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kalam:wght@300&display=swap');
+
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+.lock{
+    padding:8px 11px;
+}
+.input-name i{
+    position: absolute;
+    right: 0px;
+    font-size: 22px;
+    border-left: 1px solid #cccccc;
+}
+input:hover, .input-name i:hover{
+    cursor: pointer;
+}
+#text{
+    font-family: 'Black Ops One', cursive;
+    color: #113d37;
+}
+#text:hover{
+    color: #1d635a;
+    cursor: -webkit-grab;
+}
+#text1{
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: #30114f;
+}
+#text1:hover{
+    cursor: -webkit-grab;
+    color: #800080;
+}
+#btn{
+	margin-top: -30px;
+	margin-left: 12px;
+	background-color: #38888a;
+	font-weight: bold;
+	color: white;
+	border-radius: 10px;
+}
+#btn:focus{
+    background: #1a4647;
+    padding: 5px;
+    font-size: 14px;
+}
+#btn:hover{
+	background-color: #1a4647;
+	padding: 8px;
+}
+@media screen and (max-width: 600px) {
+  #userRepos{
+    max-width: 330px;
+  }
+}
