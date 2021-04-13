@@ -19,7 +19,9 @@ function requestUserRepos()
             if(data.message === "Not Found")
             {
                 $('#userRepos').empty();
-                li.innerHTML = (`<p><strong><font color="red"><center>No User Repositories available in this Name, Please Try with different User Name !!!</center></font></strong></p>`);
+                li.innerHTML = (`<p><strong><font color="red"><center>No User Repositories available in this Name, Please Try with different User Name !!!</center></font></strong></p>
+                                 <p><center><img src="img/error.gif" width="100" height="100"/></center></p>
+                               `);
             }
             else
             {
@@ -61,7 +63,9 @@ function requestUserInfo()
         if(data.message === "Not Found")
         {
             $('#userRepos').empty();
-            li.innerHTML = (`<p><strong><font color="red"><center>No User available in this Name, Please Try with different User Name !!!</center></font></strong></p>`);
+            li.innerHTML = (`<p><strong><font color="red"><center>No User available in this Name, Please Try with different User Name !!!</center></font></strong></p>
+                             <p><center><img src="img/error.gif" width="100" height="100"/></center></p>
+                           `);
         }
         else
         {
