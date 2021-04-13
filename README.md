@@ -16,3 +16,6 @@
 
 - Repository Info View
 ![image](https://user-images.githubusercontent.com/43011442/114363933-842eee80-9b96-11eb-8149-83dd7fe204b1.png)
+
+- Invalid Username
+![image](https://user-images.githubusercontent.com/43011442/114505560-31b10900-9c4e-11eb-849c-efbf6fde2bb8.png)
