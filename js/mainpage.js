@@ -20,7 +20,7 @@ function requestUserRepos()
             {
                 $('#userRepos').empty();
                 li.innerHTML = (`<p><strong><font color="red"><center>No User Repositories available in this Name, Please Try with different User Name !!!</center></font></strong></p>
-                                 <p><center><img src="img/error.gif" width="100" height="100"/></center></p>
+                                 <p><center><img src="img/error.gif" width="200" height="200"/></center></p>
                                `);
             }
             else
@@ -64,7 +64,7 @@ function requestUserInfo()
         {
             $('#userRepos').empty();
             li.innerHTML = (`<p><strong><font color="red"><center>No User available in this Name, Please Try with different User Name !!!</center></font></strong></p>
-                             <p><center><img src="img/error.gif" width="100" height="100"/></center></p>
+                             <p><center><img src="img/error.gif" width="200" height="200"/></center></p>
                            `);
         }
         else
