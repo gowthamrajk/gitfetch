@@ -17,6 +17,8 @@
 
 ![image](https://user-images.githubusercontent.com/43011442/114363983-94df6480-9b96-11eb-8d5b-fed7cebfc895.png)
 
+![image](https://user-images.githubusercontent.com/43011442/115153310-e30ecf00-a092-11eb-8ae9-96db6cd5f46e.png)
+
 # Repository Info View
 
 ![image](https://user-images.githubusercontent.com/43011442/114363933-842eee80-9b96-11eb-8149-83dd7fe204b1.png)
